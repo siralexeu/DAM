@@ -1,2 +1,2 @@
 # Dispozitive și aplicații mobile
-2024-2025
+An 3 semestrul 1 2024-2025
