@@ -1,9 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.CavalerAlexandru" parent="Theme.Material3.DayNight">
-        <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/material_dynamic_primary60</item>
-    </style>
-
-    <style name="Theme.CavalerAlexandru" parent="Base.Theme.CavalerAlexandru" />
-</resources>
