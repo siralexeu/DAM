@@ -24,6 +24,6 @@ public interface JoburiDAO {
     @Query("SELECT * FROM joburi WHERE salariu >= :salariuMin")
     List<Job> getSalary(int salariuMin);
 
-    @Query("DELETE FROM joburi WHERE salariu <= :salariuMax")
+    @Query("DELETE FROM joburi WHERE salariu >= :salariuMax")
     int deleteJobs(float salariuMax);
 }

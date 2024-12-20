@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 JoburiDB database=JoburiDB.getInstanta(getApplicationContext());
                 int nrjob = database.getJoburiDAO().deleteJobs(10000);
 
-                Toast.makeText(getApplicationContext(), "Au fost sterse "+nrjob+" joburi cu salariu sub 10.000", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Au fost sterse "+nrjob+" joburi cu salariu peste 10.000", Toast.LENGTH_SHORT).show();
             }
         });
 
